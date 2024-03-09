@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>weight tracker</h1>
+        <div class="form">
+            <label for="weight">weight:</label>
+            <input id="weight" type="number" value="55">
+            <br>
+            <label for="workout-option">choose workout:</label>
+            <select name="workout" id="workout-option">
+                <option value="runnig">runnig</option>
+                <option value="cycling">cycling</option>
+                <option value="gym">gym</option>
+                <option value="swimming">swimming</option>
+                <option value="yoga">yoga</option>
+            </select>
+            <br>
+            <label for="workout-time">time(minutes):</label>
+            <input type="number" id="workout-time" value="30">
+            <br>
+            <button id="add-btn">add entry</button>
+        </div> 
+        <div>
+            <ul class="lists-container">
+
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
